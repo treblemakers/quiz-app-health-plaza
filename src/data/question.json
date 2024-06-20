@@ -1,0 +1,512 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "answers": [
+            "Berlin",
+            "Paris",
+            "Rome",
+            "London"
+        ],
+        "correct": "Berlin"
+    },
+    {
+        "question": "Who is the author of 'Harry Potter' series?",
+        "answers": [
+            "Dan Brown",
+            "J.K. Rowling",
+            "Stephen King",
+            "George R.R. Martin"
+        ],
+        "correct": "Dan Brown"
+    },
+    {
+        "question": "What is the largest mammal on Earth?",
+        "answers": [
+            "Hippopotamus",
+            "Elephant",
+            "Giraffe",
+            "Blue whale"
+        ],
+        "correct": "Hippopotamus"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "answers": [
+            "Jupiter",
+            "Venus",
+            "Mercury",
+            "Mars"
+        ],
+        "correct": "Jupiter"
+    },
+    {
+        "question": "Who painted the famous artwork 'Starry Night'?",
+        "answers": [
+            "Vincent van Gogh",
+            "Pablo Picasso",
+            "Leonardo da Vinci",
+            "Michelangelo"
+        ],
+        "correct": "Vincent van Gogh"
+    },
+    {
+        "question": "Which country is known as the Land of the Rising Sun?",
+        "answers": [
+            "China",
+            "Japan",
+            "India",
+            "South Korea"
+        ],
+        "correct": "China"
+    },
+    {
+        "question": "What is the longest river in the world?",
+        "answers": [
+            "Nile",
+            "Amazon",
+            "Mississippi",
+            "Yangtze"
+        ],
+        "correct": "Nile"
+    },
+    {
+        "question": "Which element has the chemical symbol 'H'?",
+        "answers": [
+            "Nitrogen",
+            "Hydrogen",
+            "Helium",
+            "Oxygen"
+        ],
+        "correct": "Nitrogen"
+    },
+    {
+        "question": "Who developed the theory of relativity?",
+        "answers": [
+            "Charles Darwin",
+            "Isaac Newton",
+            "Albert Einstein",
+            "Galileo Galilei"
+        ],
+        "correct": "Charles Darwin"
+    },
+    {
+        "question": "Which city hosted the 2016 Summer Olympics?",
+        "answers": [
+            "Tokyo",
+            "Rio de Janeiro",
+            "London",
+            "Beijing"
+        ],
+        "correct": "Tokyo"
+    },
+    {
+        "question": "What is the currency of Japan?",
+        "answers": [
+            "Yen",
+            "Euro",
+            "Dollar",
+            "Pound"
+        ],
+        "correct": "Yen"
+    },
+    {
+        "question": "Which is the tallest mountain in the world?",
+        "answers": [
+            "K2",
+            "Makalu",
+            "Kangchenjunga",
+            "Mount Everest"
+        ],
+        "correct": "K2"
+    },
+    {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "answers": [
+            "William Shakespeare",
+            "Jane Austen",
+            "Mark Twain",
+            "Charles Dickens"
+        ],
+        "correct": "William Shakespeare"
+    },
+    {
+        "question": "What is the speed of light?",
+        "answers": [
+            "299,792,458 meters per second",
+            "100,000,000 meters per second",
+            "50,000,000 meters per second",
+            "30,000,000 meters per second"
+        ],
+        "correct": "299,792,458 meters per second"
+    },
+    {
+        "question": "What is the largest continent by land area?",
+        "answers": [
+            "Africa",
+            "Asia",
+            "Europe",
+            "North America"
+        ],
+        "correct": "Africa"
+    },
+    {
+        "question": "Which ocean is the largest?",
+        "answers": [
+            "Arctic Ocean",
+            "Pacific Ocean",
+            "Indian Ocean",
+            "Atlantic Ocean"
+        ],
+        "correct": "Arctic Ocean"
+    },
+    {
+        "question": "Who was the first President of the United States?",
+        "answers": [
+            "Thomas Jefferson",
+            "George Washington",
+            "John Adams",
+            "Abraham Lincoln"
+        ],
+        "correct": "Thomas Jefferson"
+    },
+    {
+        "question": "What is the tallest animal on Earth?",
+        "answers": [
+            "Kangaroo",
+            "Elephant",
+            "Gorilla",
+            "Giraffe"
+        ],
+        "correct": "Kangaroo"
+    },
+    {
+        "question": "What is the main ingredient in guacamole?",
+        "answers": [
+            "Tomato",
+            "Potato",
+            "Onion",
+            "Avocado"
+        ],
+        "correct": "Tomato"
+    },
+    {
+        "question": "What is the smallest planet in our solar system?",
+        "answers": [
+            "Mercury",
+            "Venus",
+            "Mars",
+            "Pluto"
+        ],
+        "correct": "Mercury"
+    },
+    {
+        "question": "Who invented the telephone?",
+        "answers": [
+            "Thomas Edison",
+            "Nikola Tesla",
+            "Guglielmo Marconi",
+            "Alexander Graham Bell"
+        ],
+        "correct": "Thomas Edison"
+    },
+    {
+        "question": "What is the chemical symbol for gold?",
+        "answers": [
+            "Pb",
+            "Fe",
+            "Au",
+            "Ag"
+        ],
+        "correct": "Pb"
+    },
+    {
+        "question": "Which is the longest bone in the human body?",
+        "answers": [
+            "Fibula",
+            "Tibia",
+            "Humerus",
+            "Femur"
+        ],
+        "correct": "Fibula"
+    },
+    {
+        "question": "What is the national flower of Japan?",
+        "answers": [
+            "Tulip",
+            "Rose",
+            "Lotus",
+            "Cherry blossom"
+        ],
+        "correct": "Tulip"
+    },
+    {
+        "question": "What is the national animal of Australia?",
+        "answers": [
+            "Platypus",
+            "Kangaroo",
+            "Koala",
+            "Emu"
+        ],
+        "correct": "Platypus"
+    },
+    {
+        "question": "Who was the first person to step on the moon?",
+        "answers": [
+            "Neil Armstrong",
+            "Buzz Aldrin",
+            "Alan Shepard",
+            "Michael Collins"
+        ],
+        "correct": "Neil Armstrong"
+    },
+    {
+        "question": "Which bird is known for its ability to mimic human speech?",
+        "answers": [
+            "Crow",
+            "Eagle",
+            "Penguin",
+            "Parrot"
+        ],
+        "correct": "Crow"
+    },
+    {
+        "question": "What is the primary ingredient in chocolate?",
+        "answers": [
+            "Tea leaves",
+            "Cocoa beans",
+            "Coffee beans",
+            "Sugar cane"
+        ],
+        "correct": "Tea leaves"
+    },
+    {
+        "question": "What is the capital of Australia?",
+        "answers": [
+            "Sydney",
+            "Canberra",
+            "Brisbane",
+            "Melbourne"
+        ],
+        "correct": "Sydney"
+    },
+    {
+        "question": "What is the longest snake in the world?",
+        "answers": [
+            "Python",
+            "Rattlesnake",
+            "Anaconda",
+            "Cobra"
+        ],
+        "correct": "Python"
+    },
+    {
+        "question": "What is the largest desert in the world?",
+        "answers": [
+            "Gobi Desert",
+            "Antarctica",
+            "Arabian Desert",
+            "Sahara"
+        ],
+        "correct": "Gobi Desert"
+    },
+    {
+        "question": "What is the chemical formula for water?",
+        "answers": [
+            "CO2",
+            "H2O",
+            "NaCl",
+            "CH4"
+        ],
+        "correct": "CO2"
+    },
+    {
+        "question": "What is the main component of the Earth's atmosphere?",
+        "answers": [
+            "Nitrogen",
+            "Oxygen",
+            "Carbon dioxide",
+            "Hydrogen"
+        ],
+        "correct": "Nitrogen"
+    },
+    {
+        "question": "What is the largest moon in the solar system?",
+        "answers": [
+            "Titan",
+            "Ganymede",
+            "Callisto",
+            "Io"
+        ],
+        "correct": "Titan"
+    },
+    {
+        "question": "Who is often credited with inventing the World Wide Web?",
+        "answers": [
+            "Tim Berners-Lee",
+            "Steve Jobs",
+            "Bill Gates",
+            "Mark Zuckerberg"
+        ],
+        "correct": "Tim Berners-Lee"
+    },
+    {
+        "question": "Which city is known as the Eternal City?",
+        "answers": [
+            "Jerusalem",
+            "Constantinople",
+            "Athens",
+            "Rome"
+        ],
+        "correct": "Jerusalem"
+    },
+    {
+        "question": "What is the most spoken language in the world?",
+        "answers": [
+            "English",
+            "Spanish",
+            "Hindi",
+            "Mandarin Chinese"
+        ],
+        "correct": "English"
+    },
+    {
+        "question": "What is the largest fish in the ocean?",
+        "answers": [
+            "Great white shark",
+            "Whale shark",
+            "Manta ray",
+            "Blue whale"
+        ],
+        "correct": "Great white shark"
+    },
+    {
+        "question": "Who wrote 'The Odyssey'?",
+        "answers": [
+            "Virgil",
+            "Homer",
+            "Herodotus",
+            "Hesiod"
+        ],
+        "correct": "Virgil"
+    },
+    {
+        "question": "What is the main ingredient in sushi rice?",
+        "answers": [
+            "Tofu",
+            "Soy sauce",
+            "Seaweed",
+            "Rice"
+        ],
+        "correct": "Tofu"
+    },
+    {
+        "question": "What is the smallest bone in the human body?",
+        "answers": [
+            "Malleus",
+            "Stapes",
+            "Incus",
+            "Phalanx"
+        ],
+        "correct": "Malleus"
+    },
+    {
+        "question": "Who is the Greek god of the sea?",
+        "answers": [
+            "Poseidon",
+            "Hades",
+            "Apollo",
+            "Zeus"
+        ],
+        "correct": "Poseidon"
+    },
+    {
+        "question": "What is the largest island in the world?",
+        "answers": [
+            "Greenland",
+            "New Guinea",
+            "Borneo",
+            "Madagascar"
+        ],
+        "correct": "Greenland"
+    },
+    {
+        "question": "What is the national sport of Japan?",
+        "answers": [
+            "Kendo",
+            "Judo",
+            "Sumo",
+            "Karate"
+        ],
+        "correct": "Kendo"
+    },
+    {
+        "question": "What is the chemical symbol for sodium?",
+        "answers": [
+            "Na",
+            "K",
+            "Fe",
+            "S"
+        ],
+        "correct": "Na"
+    },
+    {
+        "question": "Which country is known as the Land of the Midnight Sun?",
+        "answers": [
+            "Norway",
+            "Finland",
+            "Sweden",
+            "Iceland"
+        ],
+        "correct": "Norway"
+    },
+    {
+        "question": "Who was the first female Prime Minister of the United Kingdom?",
+        "answers": [
+            "Jacinda Ardern",
+            "Theresa May",
+            "Margaret Thatcher",
+            "Angela Merkel"
+        ],
+        "correct": "Jacinda Ardern"
+    },
+    {
+        "question": "What is the national bird of the United States?",
+        "answers": [
+            "Wild turkey",
+            "American robin",
+            "American crow",
+            "Bald eagle"
+        ],
+        "correct": "Wild turkey"
+    },
+    {
+        "question": "Which animal is known as the 'King of the Jungle'?",
+        "answers": [
+            "Tiger",
+            "Jaguar",
+            "Lion",
+            "Leopard"
+        ],
+        "correct": "Tiger"
+    },
+    {
+        "question": "Who painted the 'Mona Lisa'?",
+        "answers": [
+            "Vincent van Gogh",
+            "Raphael",
+            "Leonardo da Vinci",
+            "Michelangelo"
+        ],
+        "correct": "Vincent van Gogh"
+    },
+    {
+        "question": "What is the smallest ocean in the world?",
+        "answers": [
+            "Arabian Sea",
+            "Southern Ocean",
+            "Arctic Ocean",
+            "Indian Ocean"
+        ],
+        "correct": "Arabian Sea"
+    }
+]

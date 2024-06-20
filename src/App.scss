@@ -1,0 +1,318 @@
+$primaryColor: #30c1ba;
+$secondColor: #093569;
+$borderColor: #e1e1e1;
+$whiteColor: #ffffff;
+$disabledColor: rgb(221, 221, 221);
+@font-face {
+  font-family: "Pacifico";
+  src: local("Pacifico"), url('./fonts/Pacifico-Regular.ttf') format("truetype");
+}
+
+.fullscreen {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: $primaryColor;
+}
+
+%bg-path {
+  aspect-ratio: 1 / 1;
+  background: #ffffff09;
+  position: fixed;
+  @media (orientation: portrait) {
+    width: 50%;
+    height: auto;
+  }
+
+  @media (orientation: landscape) {
+    height: 50%;
+    width: auto;
+  }
+}
+.bg-path1 {
+  @extend %bg-path;
+  top: -10%;
+  left: -5%;
+}
+
+.bg-path2 {
+  @extend %bg-path;
+  bottom: -10%;
+  right: -5%;
+}
+
+.brand-name {
+  font-family: "Pacifico";
+  font-weight: bold;
+  margin: 0px;
+  color: $whiteColor;
+  font-size: 48px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+input {
+  border: 1px solid $borderColor;
+  height: 48px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+  &:focus,
+  &:hover {
+    border-color: $primaryColor;
+  }
+}
+
+.w-full {
+  width: 100%;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $whiteColor;
+  height: 48px;
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  &:focus,
+  &:hover {
+    color: $whiteColor;
+    background-color: $secondColor;
+    border-color: $secondColor;
+  }
+
+  &.outline {
+    border: 1px solid $primaryColor;
+    background-color: $whiteColor;
+    color: $primaryColor;
+
+    &:focus,
+    &:hover {
+      color: $whiteColor;
+      background-color: $primaryColor;
+      border-color: $whiteColor;
+    }
+  }
+
+  &:disabled {
+    color: $whiteColor;
+    background-color: $disabledColor;
+    border-color: $disabledColor;
+    cursor: not-allowed;
+  }
+}
+
+
+.box-container {
+  background-color: $whiteColor;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px 5px #37373736;
+  max-width: 600px;
+  width: 100%;
+  gap: 10px;
+
+  // @media screen and (max-width: 4000px) {
+  //   margin: 0px;
+  //   border-radius: 0px;
+  //   height: 100%;
+
+  // }
+}
+
+.quiz-container {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+
+  .quiz-title {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
+}
+
+.choice-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  .choice-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: calc(50% - 5px);
+    min-height: 60px;
+    background-color: $whiteColor;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid $borderColor;
+    box-shadow: 2px 1px 1px 0px #dbdbdb;
+
+    border-radius: 14px;
+    user-select: none;
+    cursor: pointer;
+    @media screen and (max-width: 500px) {
+        width: 100%;
+    }
+
+    .choice-num {
+      width: 30px;
+      min-width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: #defdfa;
+      color: #093569;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 700;
+      box-shadow: 1px 1px 1px 0px #dbdbdb;
+
+    }
+
+    &:hover,
+    &.active {
+      background-color: $primaryColor;
+      color: $whiteColor;
+      .choice-num {
+        background-color: #093569;
+        color: #defdfa;
+        box-shadow: 1px 1px 1px 0px #000000;
+      }
+    }
+  }
+}
+
+.leaderboard-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 500px;
+
+  .ranking-container {
+    width: 100%;
+    overflow: auto;
+    padding: 3px;
+
+    .ranking-list {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+      border: 1px solid $borderColor;
+      border-radius: 8px;
+      position: relative;
+      overflow: hidden;
+
+      &.first,
+      &.second,
+      &.third {
+        box-shadow: 2px 2px 0 0 #e7e7e7;
+
+        .user-score {
+          font-weight: 600;
+        }
+
+      }
+
+      &.first{
+        color: $whiteColor;
+        background: -webkit-linear-gradient(to right, $primaryColor,  #24a39d);
+        background: linear-gradient(to right,  $primaryColor,  #24a39d);
+      }
+      &.second {
+        background: #232526;
+        background: -webkit-linear-gradient(to right, #d5d5d5, #cfcfcf);
+        background: linear-gradient(to right, #d5d5d5, #cfcfcf);
+      }
+      &.third {
+        background: #91663e;
+        background: -webkit-linear-gradient(to right, #ddc3b4, #917e6d);
+        background: linear-gradient(to right, #ddc3b4, #917e6d)
+
+      }
+
+      &.cur-user-score {
+        border: 2px solid $primaryColor;
+        animation: bg-light 5s linear infinite;
+
+        &::after {
+          position: absolute;
+          top: -10px;
+          left: -10%;
+          content: "";
+          width: 0px;
+          height: 152%;
+          box-shadow: 0 0 12px 3px #ffffffe0;
+          transform: rotate(42deg);
+          animation: light 2s linear infinite
+        }
+      }
+
+      .ranked {
+        padding: 8px;
+        font-weight: 600;
+        font-size: 18px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        > span {
+          font-size: 14px;
+        }
+      }
+
+      .user-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 10px;
+        .user-name {
+          font-weight: 600;
+        }
+        .user-score {
+
+        }
+      }
+    }
+  }
+}
+
+
+@keyframes light {
+  from {left: 10%;}
+  to {left: 110%;}
+}
+
+@keyframes bg-light {
+  0% {background-color: #30c1ba3a;}
+  50% {background-color: #6ce2544b;}
+  100% {background-color: #30c1ba41;}
+}
